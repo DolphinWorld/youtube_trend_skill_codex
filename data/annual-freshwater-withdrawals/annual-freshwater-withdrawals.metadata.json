@@ -1,0 +1,33 @@
+{
+  "chart": {
+    "title": "Annual freshwater withdrawals",
+    "subtitle": "Annual freshwater withdrawals refer to total water withdrawals, not counting evaporation losses from storage basins, measured in cubic metres (m³) per year. Total water withdrawals are the sum of withdrawals for agriculture, industry and municipal (domestic uses). Withdrawals also include water from desalination plants in countries where they are a significant source.",
+    "citation": "AQUASTAT - FAO's Global Information System on Water and Agriculture, FAO, via World Bank (2026)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/annual-freshwater-withdrawals?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Brazil",
+      "United States",
+      "India",
+      "China"
+    ]
+  },
+  "columns": {
+    "Annual freshwater withdrawals, total (billion cubic meters)": {
+      "titleShort": "Annual freshwater withdrawals",
+      "titleLong": "Annual freshwater withdrawals",
+      "unit": "billion cubic meters",
+      "timespan": "1962-2022",
+      "type": "Numeric",
+      "conversionFactor": 1000000000,
+      "owidVariableId": 1144494,
+      "shortName": "er_h2o_fwtl_k3",
+      "lastUpdated": "2026-01-29",
+      "nextUpdate": "2027-01-29",
+      "citationShort": "AQUASTAT - FAO's Global Information System on Water and Agriculture, FAO, via World Bank (2026) – processed by Our World in Data",
+      "citationLong": "AQUASTAT - FAO's Global Information System on Water and Agriculture, FAO, via World Bank (2026) – processed by Our World in Data. “Annual freshwater withdrawals” [dataset]. AQUASTAT - FAO's Global Information System on Water and Agriculture, FAO, via World Bank, “World Development Indicators 125” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1144494.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-02-21",
+  "activeFilters": {}
+}

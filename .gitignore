@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local OAuth and credentials (never commit)
+config/*.json
+config/*.pem
+config/*.key
+config/*.env
+
+# Optional local env files
+.env
+.env.*
