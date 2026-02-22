@@ -66,75 +66,66 @@ def style_axis(ax: plt.Axes) -> None:
 
 
 def draw_intro(ax: plt.Axes, width_hint: float) -> None:
-    style_axis(ax)
-    ax.set_xlim(0, max(width_hint, 1))
-    ax.set_ylim(-1, 1)
-    ax.set_xticks([])
-    ax.set_yticks([])
+    _ = width_hint
+    panel = dict(boxstyle="round,pad=0.55", facecolor="#020617", edgecolor="#334155", alpha=0.84)
     ax.text(
         0.02,
-        0.72,
+        0.93,
         "Freshwater Under Pressure",
         transform=ax.transAxes,
         color="#f8fafc",
-        fontsize=42,
+        fontsize=28,
         fontweight="bold",
         ha="left",
+        va="top",
+        bbox=panel,
     )
     ax.text(
         0.02,
-        0.50,
-        "Top freshwater-withdrawing countries\nacross 1962-2022",
+        0.82,
+        "Top freshwater-withdrawing countries across 1962-2022",
         transform=ax.transAxes,
         color="#cbd5e1",
-        fontsize=22,
+        fontsize=14,
         ha="left",
+        va="top",
     )
     ax.text(
         0.02,
-        0.22,
-        "Data: annual freshwater withdrawals (OWID) | Unit: km^3/year",
+        0.75,
+        "Data: OWID | Unit: km^3/year",
         transform=ax.transAxes,
         color="#94a3b8",
-        fontsize=13,
+        fontsize=11,
         ha="left",
+        va="top",
     )
 
 
 def draw_outro(ax: plt.Axes, width_hint: float) -> None:
-    style_axis(ax)
-    ax.set_xlim(0, max(width_hint, 1))
-    ax.set_ylim(-1, 1)
-    ax.set_xticks([])
-    ax.set_yticks([])
+    _ = width_hint
+    panel = dict(boxstyle="round,pad=0.55", facecolor="#020617", edgecolor="#334155", alpha=0.84)
     ax.text(
         0.02,
-        0.64,
-        "Act early: Protect water, reduce waste,",
+        0.91,
+        "Act early: protect water and reduce waste.",
         transform=ax.transAxes,
         color="#f8fafc",
-        fontsize=34,
+        fontsize=24,
         fontweight="bold",
         ha="left",
+        va="top",
+        bbox=panel,
     )
     ax.text(
         0.02,
-        0.46,
-        "and build climate-resilient systems.",
-        transform=ax.transAxes,
-        color="#f8fafc",
-        fontsize=34,
-        fontweight="bold",
-        ha="left",
-    )
-    ax.text(
-        0.02,
-        0.20,
-        "Every region feels freshwater stress differently.\nSolutions must be local, urgent, and sustained.",
+        0.79,
+        "Solutions must be local, urgent, and sustained.",
         transform=ax.transAxes,
         color="#cbd5e1",
-        fontsize=16,
+        fontsize=13,
         ha="left",
+        va="top",
     )
 
 
@@ -227,8 +218,10 @@ def render_video(data: pd.DataFrame) -> float:
             ax.clear()
 
             if frame < intro_frames:
+                draw_year_frame(ax, data, colors, 0)
                 draw_intro(ax, float(data.max().max()))
             elif frame >= intro_frames + main_frames:
+                draw_year_frame(ax, data, colors, main_frames - 1)
                 draw_outro(ax, float(data.max().max()))
             else:
                 draw_year_frame(ax, data, colors, frame - intro_frames)
