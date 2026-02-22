@@ -1,0 +1,55 @@
+{
+  "anon_id": "cfa21be6-591d-425b-a7cb-3c6f3aeff12c",
+  "posted_keys": {
+    "2c755a19f9df09a063840fc5725aee1fa56871395a52e5de46588021f9e79cf1": {
+      "idea_id": "37acf961-d702-4adf-af0f-b497082fd346",
+      "cluster_id": "demand_001",
+      "posted_at": "2026-02-22T17:35:57.552563+00:00"
+    },
+    "c14df04556774613e6b42a78913c19be833714a2fdf6065dbb50f15b0b58764c": {
+      "idea_id": "ad5dad4c-e095-4100-b85f-b775cb05615f",
+      "cluster_id": "demand_002",
+      "posted_at": "2026-02-22T17:36:00.901499+00:00"
+    },
+    "8436e972ada667d4446806cdbfd5b0b6f6dcf4b9c9c935d8cdff14780c03a93c": {
+      "idea_id": "4a2f50da-5d7b-4cf6-a9d2-1c175f912f97",
+      "cluster_id": "demand_004",
+      "posted_at": "2026-02-22T17:36:04.121536+00:00"
+    },
+    "0bc94d1aa38e3ad4babedc51586471180844a2ec7422581c68dc9dc5c5d5f706": {
+      "idea_id": "2ac7aa7a-127a-45d5-b903-6aa42c63822e",
+      "cluster_id": "demand_006",
+      "posted_at": "2026-02-22T17:36:07.192496+00:00"
+    },
+    "de6fcd134003d7d81e0dab97df3429d476b45c4e89d96d6110a24262443d5bd5": {
+      "idea_id": "2ac7aa7a-127a-45d5-b903-6aa42c63822e",
+      "cluster_id": "demand_007",
+      "posted_at": "2026-02-22T17:36:08.068523+00:00"
+    },
+    "be4164873b3694d0d0bb8916ef8f7d5255647378b429f859de525960ae1e6ab2": {
+      "idea_id": "ad5dad4c-e095-4100-b85f-b775cb05615f",
+      "cluster_id": "demand_008",
+      "posted_at": "2026-02-22T17:36:08.616015+00:00"
+    }
+  },
+  "runs": [
+    {
+      "run_dir": "/Users/jacksu/projects/youtube_trend_skill_codex/data/reddit_requirements/20260222_154256_utc",
+      "posted_at": "2026-02-22T17:36:08.616095+00:00",
+      "results_count": 6,
+      "posted_count": 6
+    },
+    {
+      "run_dir": "/Users/jacksu/projects/youtube_trend_skill_codex/data/reddit_requirements/20260222_154256_utc",
+      "posted_at": "2026-02-22T17:36:38.668536+00:00",
+      "results_count": 6,
+      "posted_count": 0
+    },
+    {
+      "run_dir": "/Users/jacksu/projects/youtube_trend_skill_codex/data/reddit_requirements/20260222_154256_utc",
+      "posted_at": "2026-02-22T17:43:42.172022+00:00",
+      "results_count": 6,
+      "posted_count": 0
+    }
+  ]
+}

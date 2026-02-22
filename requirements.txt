@@ -4,3 +4,4 @@ matplotlib
 imageio
 imageio-ffmpeg
 scipy
+requests

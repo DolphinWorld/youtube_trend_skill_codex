@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "cluster_id": "demand_001",
+      "requirement": "I have created a FB business page for my Saas and I am looking for a way to automate the posting and engagement.",
+      "status": "dry_run",
+      "message": "Prepared payload only; not submitted."
+    },
+    {
+      "cluster_id": "demand_002",
+      "requirement": "I’m on Windows and looking for a FREE tool.",
+      "status": "dry_run",
+      "message": "Prepared payload only; not submitted."
+    },
+    {
+      "cluster_id": "demand_004",
+      "requirement": "I'm looking for a software where our employees could sign in using their google accounts and we could assign tasks and target dates only.",
+      "status": "dry_run",
+      "message": "Prepared payload only; not submitted."
+    },
+    {
+      "cluster_id": "demand_006",
+      "requirement": "I’m looking for an app that can help me manage: * Daily planning * Client work * Tasks and priorities * Maybe some kind of AI-powered journal or smart daily review Som...",
+      "status": "dry_run",
+      "message": "Prepared payload only; not submitted."
+    },
+    {
+      "cluster_id": "demand_007",
+      "requirement": "I'm looking for a productivity software tool.",
+      "status": "dry_run",
+      "message": "Prepared payload only; not submitted."
+    },
+    {
+      "cluster_id": "demand_008",
+      "requirement": "Any recommendation for bulk renaming/file management software?",
+      "status": "dry_run",
+      "message": "Prepared payload only; not submitted."
+    }
+  ]
+}
